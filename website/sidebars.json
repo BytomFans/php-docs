@@ -1,25 +1,26 @@
 {
-  "docs": {
-    "Getting Started": [
-      "doc1",
-      "doc1",
-      "doc1",
-      "doc1",
-      "doc1"
-    ],
-    "Guides": [
-      "doc1",
-      "doc1",
-      "doc1",
-      "doc1",
-      "doc1",
-      "doc1"
-    ],
-    "API": [
-      "doc2", 
-      "doc1",
-      "doc3",
-      "doc1"
-    ]
-  }
+    "docs": {
+        "快速开始": [
+            "build",
+            "start"
+        ],
+
+        "API 中文文档": [
+            "key",
+            "account",
+            "asset",
+            "transaction",
+            "wallet",
+            "access_token",
+            "block",
+            "mining",
+            "gas",
+            "work",
+            "message",
+            "feed",
+            "net_info",
+            "decode_program",
+            "other"
+        ]
+    }
 }
