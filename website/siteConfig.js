@@ -21,7 +21,7 @@ const users = [
 ];
 
 const siteConfig = {
-  title: 'Bytom.Php API文档', // Title for your website.
+  title: 'Bytom Php API文档', // Title for your website.
   tagline: 'A website for Bytom PHP SDK',
   url: 'http://bytomphp.github.io', // Your website URL
   baseUrl: '/', // Base URL for your project */
