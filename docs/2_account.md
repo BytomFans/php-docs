@@ -113,7 +113,7 @@ console_($data);
 如果账户别名更新成功，status为success。
 #### 例子
 ```php
-\\\\\
+$client = BytomClient::updateAccountAlias($account_info, $new_alias)
 ```
 
 ```json
@@ -134,6 +134,7 @@ console_($data);
 $client = BytomClient::deleteAccount($account_info);
 ```
 ```json
+//result
 //none
 ```
 ## create-account-receiver
@@ -177,7 +178,7 @@ $client = BytomClient::createAccountReceiver($account_alias, $account_id);
 ####  例子
 
 ```php
-BytomClient::listAddresses($account_alias, $account_id);
+$client = BytomClient::listAddresses($account_alias, $account_id);
 ```
 ```json
 // Result
@@ -220,7 +221,7 @@ BytomClient::listAddresses($account_alias, $account_id);
 #### 例子
 
 ```php
-BytomClient::validateAddress($address);
+$client = BytomClient::validateAddress($address);
 ```
 
 ```json

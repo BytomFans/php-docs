@@ -19,7 +19,7 @@ sidebar_label: Bytom.Feed.API
 
 #### 例子
 ```php
-BytomClient::createTransactionFeed($alias, $filter);
+$client = BytomClient::createTransactionFeed($alias, $filter);
 ```
 ```js
 // Result
@@ -56,7 +56,7 @@ BytomClient::createTransactionFeed($alias, $filter);
 
 列出别名可用的txfeed：
 ```php
-BytomClient::getTransactionFeed($alias);
+$client = BytomClient::getTransactionFeed($alias);
 ```
 ```js
 // Result
@@ -97,7 +97,7 @@ none
 
 列出所有可用的txfeed：
 ```php
-BytomClient::listTransactionFeeds();
+$client = BytomClient::listTransactionFeeds();
 ```
 ```js
 // Result
@@ -129,7 +129,7 @@ BytomClient::listTransactionFeeds();
 
 #### 例子
 ```php
-BytomClient::deleteTransactionFeed($alias);
+$client = BytomClient::deleteTransactionFeed($alias);
 ```
 ```js
 // Result
@@ -153,7 +153,7 @@ BytomClient::deleteTransactionFeed($alias);
 
 当交易反馈存在的时候删除它，并使用别名和过滤器创建它:
 ```php
-BytomClient::updateTransactionFeed($alias, $filter);
+$client = BytomClient::updateTransactionFeed($alias, $filter);
 ```
 ```js
 // Result

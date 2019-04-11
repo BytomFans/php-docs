@@ -31,7 +31,7 @@ sidebar_label: Bytom.Asset.API
 #### 例子
 
 ```php
-BytomClient::createAsset($root_xpubs = [], $alias, $quorum = 1);
+$client = BytomClient::createAsset($root_xpubs = [], $alias, $quorum = 1);
 ```
 
 ```json
@@ -82,7 +82,7 @@ BytomClient::createAsset($root_xpubs = [], $alias, $quorum = 1);
 
 #### 例子
 ```php
-BytomClient::getAsset($asset_id);
+$client = BytomClient::getAsset($asset_id);
 ```
 
 ```json
@@ -128,7 +128,7 @@ none
 #### 例子
 
 ```php
-BytomClient::listAssets();
+$client = BytomClient::listAssets();
 ```
 
 ```json
@@ -184,7 +184,7 @@ BytomClient::listAssets();
 ##### 例子
 
 ```php
-BytomClient::updateAssetAlias($asset_id, $alias);
+$client = BytomClient::updateAssetAlias($asset_id, $alias);
 ```
 
 ```json
@@ -267,7 +267,7 @@ curl -X POST list-balances -d {}
 
 列出所有可用的未使用输出：
 ```php
-BytomClient::listUnspentOutPuts($id);
+$client = BytomClient::listUnspentOutPuts($id);
 ```
 
 ```json
@@ -308,7 +308,7 @@ BytomClient::listUnspentOutPuts($id);
 列出与给定id匹配的未使用的输出：
 ```php
 $id = "58f29f0f85f7bd2a91088bcbe536dee41cd0642dfb1480d3a88589bdbfd642d9"
-BytomClient::listUnspentOutPuts($id);
+$client = BytomClient::listUnspentOutPuts($id);
 ```
 ```js
 // Request

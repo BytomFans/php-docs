@@ -18,7 +18,7 @@ none
 
 #### 例子
 ```php
-BytomClient::getBlockCount();
+$client = BytomClient::getBlockCount();
 ```
 ```js
 // Result
@@ -41,7 +41,7 @@ none
 
 #### 例子
 ```php
-BytomClient::getBlockHash();
+$client = BytomClient::getBlockHash();
 ```
 ```js
 // Result
@@ -89,7 +89,7 @@ BytomClient::getBlockHash();
 
 - `String` - *transaction_status_hash*, 交易状态的默克尔根.
 
-- `Array of Object`- * transactions*, 交易对象:
+- `Array of Object` - * transactions*, 交易对象：
 
   - `String` - *id*, transaction id, 交易hash.
 
@@ -136,7 +136,7 @@ BytomClient::getBlockHash();
 
 通过block_hash或block_height获取指定的块信息，如果两者都存在，则块结果通过哈希查询。
 ```php
-BytomClient::getBlock($block_hash, $block_height);
+$client = BytomClient::getBlock($block_hash, $block_height);
 ```
 ```js
 // Result
@@ -206,7 +206,7 @@ BytomClient::getBlock($block_hash, $block_height);
 
 #### 例子
 ```php
-BytomClient::getBlockHeader($block_hash, $block_height);
+$client = BytomClient::getBlockHeader($block_hash, $block_height);
 ```
 ```js
 // Result
@@ -236,7 +236,7 @@ BytomClient::getBlockHeader($block_hash, $block_height);
 
 为当前块或指定的块散列/高度获取困难。
 ```php
-BytomClient::getDifficulty($block_hash, $block_height);
+$client = BytomClient::getDifficulty($block_hash, $block_height);
 ```
 ```js
 // Result
@@ -267,7 +267,7 @@ BytomClient::getDifficulty($block_hash, $block_height);
 
 获取当前块或指定块散列/高度的哈希率。
 ```php
-BytomClient::getHashRate($block_hash, $block_height);
+$client = BytomClient::getHashRate($block_hash, $block_height);
 ```
 ```js
 // Result

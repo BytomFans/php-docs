@@ -63,7 +63,7 @@ $data = $res->getJSONDecodedBody();
 
 ## 其他示例
 
-请参考文档：[/doc](doc/index.md)
+请参考文档：[API中文文档](1_key.md)
 
 ## 支持和反馈
 
@@ -73,3 +73,4 @@ $data = $res->getJSONDecodedBody();
 ## 联系
 
 - 邮箱：<x@xwlin.com>
+

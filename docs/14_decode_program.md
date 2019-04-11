@@ -20,7 +20,7 @@ sidebar_label: Bytom.Decode_program.API
 
 ##### 例子
 ```php
-BytomClient::decodeRawTransaction($raw_transaction);
+$client = BytomClient::decodeRawTransaction($raw_transaction);
 ```
 ```js
 // Result

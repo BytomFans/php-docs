@@ -18,7 +18,7 @@ none
 
 ##### 例子
 ```php
-BytomClient::gasRate();
+$client = BytomClient::gasRate();
 ```
 ```js
 // Result

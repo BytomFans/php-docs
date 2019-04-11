@@ -25,7 +25,7 @@ optional:
 
 ##### 例子
 ```php
-BytomClient::createAccessToken($token_id);
+$client = BytomClient::createAccessToken($token_id);
 ```
 ```js
 // Request
@@ -60,7 +60,7 @@ none
 
 列出所有可用的access token。
 ```php
-BytomClient::listAccessTokens();
+$client = BytomClient::listAccessTokens();
 ```
 ```js
 // Result
@@ -123,7 +123,7 @@ BytomClient::deleteAccessToken($token_id);
 
 检查access token是否有效。
 ```php
-BytomClient::checkAccessToken($token_id, $secret);
+$client = BytomClient::checkAccessToken($token_id, $secret);
 ```
 ```js
 // Result

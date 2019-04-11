@@ -27,7 +27,7 @@ none
 
 #### 例子
 ```php
-BytomClient::netInfo();
+$client = BytomClient::netInfo();
 ```
 ```js
 // Result

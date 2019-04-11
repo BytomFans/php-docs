@@ -21,7 +21,7 @@ sidebar_label: Bytom.Message.API
 
 #### 例子
 ```php
-BytomClient::signMessage($address, $message, $password);
+$client = BytomClient::signMessage($address, $message, $password);
 ```
 ```js
 // Result
@@ -51,7 +51,7 @@ BytomClient::signMessage($address, $message, $password);
 
 #### 例子
 ```php
-BytomClient::verifyMessage($address, $derived_xpub, $message, $signature);
+$client = BytomClient::verifyMessage($address, $derived_xpub, $message, $signature);
 ```
 ```js
 // Result

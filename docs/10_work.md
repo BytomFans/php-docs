@@ -22,7 +22,7 @@ none
 
 ##### 例子
 ```php
-BytomClient::getWork();
+$client = BytomClient::getWork();
 ```
 ```js
 // Result
@@ -47,7 +47,7 @@ BytomClient::getWork();
 
 #### 例子
 ```php
-BytomClient::submitWork($block_header);
+$client = BytomClient::submitWork($block_header);
 ```
 ```js
 // Result
