@@ -20,6 +20,7 @@ none
 #### 例子
 ```php
 $client = BytomClient::isMining();
+console_($client);
 ```
 ```js
 // Result
@@ -39,6 +40,7 @@ $client = BytomClient::isMining();
 #### 例子
 ```php
 $client = BytomClient::setMining();
+console_($client);
 ```
 ```js
 // Result

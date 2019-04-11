@@ -32,6 +32,7 @@ sidebar_label: Bytom.Asset.API
 
 ```php
 $client = BytomClient::createAsset($root_xpubs = [], $alias, $quorum = 1);
+console_($client);
 ```
 
 ```json
@@ -83,6 +84,7 @@ $client = BytomClient::createAsset($root_xpubs = [], $alias, $quorum = 1);
 #### 例子
 ```php
 $client = BytomClient::getAsset($asset_id);
+console_($client);
 ```
 
 ```json
@@ -129,6 +131,7 @@ none
 
 ```php
 $client = BytomClient::listAssets();
+console_($client);
 ```
 
 ```json
@@ -185,6 +188,7 @@ $client = BytomClient::listAssets();
 
 ```php
 $client = BytomClient::updateAssetAlias($asset_id, $alias);
+console_($client);
 ```
 
 ```json
@@ -214,6 +218,10 @@ none
 #### 例子
 
 列出所有可用的帐户余额。
+```php
+$client = BytomClient::listBalances($asset_id, $alias);
+console_($client);
+```
 
 ```js
 // Request
@@ -268,6 +276,7 @@ curl -X POST list-balances -d {}
 列出所有可用的未使用输出：
 ```php
 $client = BytomClient::listUnspentOutPuts($id);
+console_($client);
 ```
 
 ```json

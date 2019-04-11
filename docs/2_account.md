@@ -114,6 +114,7 @@ console_($data);
 #### 例子
 ```php
 $client = BytomClient::updateAccountAlias($account_info, $new_alias)
+console_($client);
 ```
 
 ```json
@@ -132,6 +133,7 @@ $client = BytomClient::updateAccountAlias($account_info, $new_alias)
 #### 例子
 ```php
 $client = BytomClient::deleteAccount($account_info);
+console_($client);
 ```
 ```json
 //result
@@ -150,6 +152,7 @@ $client = BytomClient::deleteAccount($account_info);
 #### 例子
 ```php
 $client = BytomClient::createAccountReceiver($account_alias, $account_id);
+console_($client);
 ```
 ```json
 // Result
@@ -179,6 +182,7 @@ $client = BytomClient::createAccountReceiver($account_alias, $account_id);
 
 ```php
 $client = BytomClient::listAddresses($account_alias, $account_id);
+console_($client);
 ```
 ```json
 // Result
@@ -222,6 +226,7 @@ $client = BytomClient::listAddresses($account_alias, $account_id);
 
 ```php
 $client = BytomClient::validateAddress($address);
+console_($client);
 ```
 
 ```json

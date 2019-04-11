@@ -52,6 +52,7 @@ sidebar_label: Bytom.Transaction.API
 
 ```php
 $client = BytomClient::getTransaction($tx_id);
+console_($client);
 ```
 
 ```js
@@ -206,6 +207,7 @@ $client = BytomClient::getTransaction($tx_id);
 列出所有可用的交易：
 ```php
 $client = BytomClient::listTransactions();
+console_($client);
 ```
 
 ```js
@@ -569,6 +571,7 @@ $client = BytomClient::listTransactions();
 #### 例子
 ```php
 $client = BytomClient::buildTransaction($actions = [], $base_transaction = null, $ttl = 0);
+console_($client);
 ```
 ```js
 {
@@ -648,6 +651,7 @@ $client = BytomClient::buildTransaction($actions = [], $base_transaction = null,
 
 ```php
 $client = BytomClient::signTransaction($password, $transaction);
+console_($client);
 ```
 
 ```js
@@ -729,6 +733,7 @@ $client = BytomClient::signTransaction($password, $transaction);
 #### 例子
 ```php
 $client = BytomClient::submitTransaction($raw_transaction);
+console_($client);
 ```
 ```js
 // Result
@@ -754,6 +759,7 @@ $client = BytomClient::submitTransaction($raw_transaction);
 ##### 例子
 ```php
 $client = BytomClient::estimateTransactionGas($transaction_template);
+console_($client);
 ```
 ```js
 // Result
@@ -786,6 +792,7 @@ $client = BytomClient::estimateTransactionGas($transaction_template);
 #### 例子
 ```php
 $client = BytomClient::getUnconfirmedTransaction($tx_id);
+console_($client);
 ```
 ```js
 // Result
@@ -847,7 +854,8 @@ none
 
 #### 例子
 ```php
-$client = BytomClient::listUnconfirmedTransactions()
+$client = BytomClient::listUnconfirmedTransactions();
+console_($client);
 ```
 ```js
 // Result
@@ -879,7 +887,8 @@ $client = BytomClient::listUnconfirmedTransactions()
 
 #### 例子
 ```php
-$client = BytomClient::decodeRawTransaction($raw_transaction)
+$client = BytomClient::decodeRawTransaction($raw_transaction);
+console_($client);
 ```
 ```js
 // Result

@@ -26,6 +26,7 @@ optional:
 ##### 例子
 ```php
 $client = BytomClient::createAccessToken($token_id);
+console_($client);
 ```
 ```js
 // Request
@@ -96,7 +97,8 @@ $client = BytomClient::listAccessTokens();
 
 删除access token
 ```php
-BytomClient::deleteAccessToken($token_id);
+$client = BytomClient::deleteAccessToken($token_id);
+console_($client);
 ```
 ```js
 // Result
@@ -124,6 +126,7 @@ BytomClient::deleteAccessToken($token_id);
 检查access token是否有效。
 ```php
 $client = BytomClient::checkAccessToken($token_id, $secret);
+console_($client);
 ```
 ```js
 // Result

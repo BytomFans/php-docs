@@ -21,6 +21,7 @@ none
 #### 例子
 ```php
 $client = BytomClient::backupWallet();
+console_($client);
 ```
 
 ```js
@@ -119,6 +120,7 @@ curl -X backup-wallet -d {}
 #### 例子
 ```php
 $client = BytomClient::restoreWallet();
+console_($client);
 ```
 ```js
 // Result

@@ -23,6 +23,7 @@ none
 ##### 例子
 ```php
 $client = BytomClient::getWork();
+console_($client);
 ```
 ```js
 // Result
@@ -48,6 +49,7 @@ $client = BytomClient::getWork();
 #### 例子
 ```php
 $client = BytomClient::submitWork($block_header);
+console_($client);
 ```
 ```js
 // Result

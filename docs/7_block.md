@@ -19,6 +19,7 @@ none
 #### 例子
 ```php
 $client = BytomClient::getBlockCount();
+console_($client);
 ```
 ```js
 // Result
@@ -42,6 +43,7 @@ none
 #### 例子
 ```php
 $client = BytomClient::getBlockHash();
+console_($client);
 ```
 ```js
 // Result
@@ -137,6 +139,7 @@ $client = BytomClient::getBlockHash();
 通过block_hash或block_height获取指定的块信息，如果两者都存在，则块结果通过哈希查询。
 ```php
 $client = BytomClient::getBlock($block_hash, $block_height);
+console_($client);
 ```
 ```js
 // Result
@@ -207,6 +210,7 @@ $client = BytomClient::getBlock($block_hash, $block_height);
 #### 例子
 ```php
 $client = BytomClient::getBlockHeader($block_hash, $block_height);
+console_($client);
 ```
 ```js
 // Result
@@ -237,6 +241,7 @@ $client = BytomClient::getBlockHeader($block_hash, $block_height);
 为当前块或指定的块散列/高度获取困难。
 ```php
 $client = BytomClient::getDifficulty($block_hash, $block_height);
+console_($client);
 ```
 ```js
 // Result
@@ -268,6 +273,7 @@ $client = BytomClient::getDifficulty($block_hash, $block_height);
 获取当前块或指定块散列/高度的哈希率。
 ```php
 $client = BytomClient::getHashRate($block_hash, $block_height);
+console_($client);
 ```
 ```js
 // Result
