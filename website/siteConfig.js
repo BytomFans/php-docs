@@ -13,7 +13,7 @@ const users = [{
     caption: 'User1',
     // You will need to prepend the image path with your baseUrl
     // if it is not '/', like: '/test-site/img/docusaurus.svg'.
-    image: '/img/docusaurus.svg',
+    image: '',
     infoLink: 'https://www.facebook.com',
     pinned: true,
 }, ];
@@ -36,7 +36,7 @@ const siteConfig = {
 
     // For no header links in the top nav bar -> headerLinks: [],
     headerLinks: [
-        { doc: 'key', label: 'Docs' },
+        { doc: 'start', label: 'Docs' },
         // {doc: 'doc4', label: 'API'},
         // {page: 'help', label: 'Help'},
         // {blog: true, label: 'Blog'},
@@ -46,9 +46,9 @@ const siteConfig = {
     users,
 
     /* path to images for header/footer */
-    headerIcon: 'img/docusaurus.svg',
-    footerIcon: 'img/docusaurus.svg',
-    favicon: 'img/favicon.png',
+    headerIcon: '',
+    footerIcon: '',
+    favicon: '',
 
     /* Colors for website */
     colors: {
@@ -71,7 +71,7 @@ const siteConfig = {
     */
 
     // This copyright info is used in /core/Footer.js and blog RSS/Atom feeds.
-    copyright: `Copyright © ${new Date().getFullYear()} Your Name or Your Company Name`,
+    copyright: `Copyright © ${new Date().getFullYear()} Bytom Community`,
 
     highlight: {
         // Highlight.js theme to use for syntax highlighting in code blocks.
@@ -87,8 +87,8 @@ const siteConfig = {
     cleanUrl: true,
 
     // Open Graph and Twitter card images.
-    ogImage: 'img/docusaurus.png',
-    twitterImage: 'img/docusaurus.png',
+    ogImage: '',
+    twitterImage: '',
 
     // Show documentation's last contributor's name.
     // enableUpdateBy: true,
