@@ -1,0 +1,103 @@
+<!DOCTYPE html><html lang="en"><head><meta charSet="utf-8"/><meta http-equiv="X-UA-Compatible" content="IE=edge"/><title>quick start · Bytom PHP API文档</title><meta name="viewport" content="width=device-width"/><meta name="generator" content="Docusaurus"/><meta name="description" content="&lt;h2&gt;&lt;a class=&quot;anchor&quot; aria-hidden=&quot;true&quot; id=&quot;安装composer&quot;&gt;&lt;/a&gt;&lt;a href=&quot;#安装composer&quot; aria-hidden=&quot;true&quot; class=&quot;hash-link&quot;&gt;&lt;svg class=&quot;hash-link-icon&quot; aria-hidden=&quot;true&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;安装Composer&lt;/h2&gt;
+"/><meta name="docsearch:language" content="en"/><meta property="og:title" content="quick start · Bytom PHP API文档"/><meta property="og:type" content="website"/><meta property="og:url" content="https://bytomfans.github.io/php-docs/"/><meta property="og:description" content="&lt;h2&gt;&lt;a class=&quot;anchor&quot; aria-hidden=&quot;true&quot; id=&quot;安装composer&quot;&gt;&lt;/a&gt;&lt;a href=&quot;#安装composer&quot; aria-hidden=&quot;true&quot; class=&quot;hash-link&quot;&gt;&lt;svg class=&quot;hash-link-icon&quot; aria-hidden=&quot;true&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;安装Composer&lt;/h2&gt;
+"/><meta name="twitter:card" content="summary"/><link rel="shortcut icon" href="/php-docs/"/><link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/default.min.css"/><script type="text/javascript" src="https://buttons.github.io/buttons.js"></script><link rel="stylesheet" href="/php-docs/css/main.css"/><script src="/php-docs/js/codetabs.js"></script></head><body class="sideNavVisible separateOnPageNav"><div class="fixedHeaderContainer"><div class="headerWrapper wrapper"><header><a href="/php-docs/"><h2 class="headerTitle">Bytom PHP API文档</h2></a><div class="navigationWrapper navigationSlider"><nav class="slidingNav"><ul class="nav-site nav-site-internal"><li class="siteNavGroupActive siteNavItemActive"><a href="/php-docs/docs/start" target="_self">Docs</a></li></ul></nav></div></header></div></div><div class="navPusher"><div class="docMainWrapper wrapper"><div class="container docsNavContainer" id="docsNav"><nav class="toc"><div class="toggleNav"><section class="navWrapper wrapper"><div class="navBreadcrumb wrapper"><div class="navToggle" id="navToggler"><div class="hamburger-menu"><div class="line1"></div><div class="line2"></div><div class="line3"></div></div></div><h2><i>›</i><span>快速开始</span></h2><div class="tocToggler" id="tocToggler"><i class="icon-toc"></i></div></div><div class="navGroups"><div class="navGroup"><h3 class="navGroupCategoryTitle">快速开始</h3><ul class=""><li class="navListItem"><a class="navItem" href="/php-docs/docs/build">搭建节点</a></li><li class="navListItem navListItemActive"><a class="navItem" href="/php-docs/docs/start">SDK环境配置</a></li></ul></div><div class="navGroup"><h3 class="navGroupCategoryTitle">API 中文文档</h3><ul class=""><li class="navListItem"><a class="navItem" href="/php-docs/docs/explanation">说明</a></li><li class="navListItem"><a class="navItem" href="/php-docs/docs/key">Bytom.Key.API</a></li><li class="navListItem"><a class="navItem" href="/php-docs/docs/account">Bytom.Account.API</a></li><li class="navListItem"><a class="navItem" href="/php-docs/docs/asset">Bytom.Asset.API</a></li><li class="navListItem"><a class="navItem" href="/php-docs/docs/transaction">Bytom.Transaction.API</a></li><li class="navListItem"><a class="navItem" href="/php-docs/docs/wallet">Bytom.Wallet.API</a></li><li class="navListItem"><a class="navItem" href="/php-docs/docs/access_token">Bytom.Access_token.API</a></li><li class="navListItem"><a class="navItem" href="/php-docs/docs/block">Bytom.Block.API</a></li><li class="navListItem"><a class="navItem" href="/php-docs/docs/mining">Bytom.Mining.API</a></li><li class="navListItem"><a class="navItem" href="/php-docs/docs/gas">Bytom.Gas.API</a></li><li class="navListItem"><a class="navItem" href="/php-docs/docs/work">Bytom.Work.API</a></li><li class="navListItem"><a class="navItem" href="/php-docs/docs/message">Bytom.Message.API</a></li><li class="navListItem"><a class="navItem" href="/php-docs/docs/feed">Bytom.Feed.API</a></li><li class="navListItem"><a class="navItem" href="/php-docs/docs/net_info">Bytom.New_info.API</a></li><li class="navListItem"><a class="navItem" href="/php-docs/docs/decode_program">Bytom.Decode_program.API</a></li><li class="navListItem"><a class="navItem" href="/php-docs/docs/other">Bytom.Other.API</a></li></ul></div></div></section></div><script>
+            var coll = document.getElementsByClassName('collapsible');
+            var checkActiveCategory = true;
+            for (var i = 0; i < coll.length; i++) {
+              var links = coll[i].nextElementSibling.getElementsByTagName('*');
+              if (checkActiveCategory){
+                for (var j = 0; j < links.length; j++) {
+                  if (links[j].classList.contains('navListItemActive')){
+                    coll[i].nextElementSibling.classList.toggle('hide');
+                    coll[i].childNodes[1].classList.toggle('rotate');
+                    checkActiveCategory = false;
+                    break;
+                  }
+                }
+              }
+
+              coll[i].addEventListener('click', function() {
+                var arrow = this.childNodes[1];
+                arrow.classList.toggle('rotate');
+                var content = this.nextElementSibling;
+                content.classList.toggle('hide');
+              });
+            }
+
+            document.addEventListener('DOMContentLoaded', function() {
+              createToggler('#navToggler', '#docsNav', 'docsSliderActive');
+              createToggler('#tocToggler', 'body', 'tocActive');
+
+              const headings = document.querySelector('.toc-headings');
+              headings && headings.addEventListener('click', function(event) {
+                if (event.target.tagName === 'A') {
+                  document.body.classList.remove('tocActive');
+                }
+              }, false);
+
+              function createToggler(togglerSelector, targetSelector, className) {
+                var toggler = document.querySelector(togglerSelector);
+                var target = document.querySelector(targetSelector);
+
+                if (!toggler) {
+                  return;
+                }
+
+                toggler.onclick = function(event) {
+                  event.preventDefault();
+
+                  target.classList.toggle(className);
+                };
+              }
+            });
+        </script></nav></div><div class="container mainContainer"><div class="wrapper"><div class="post"><header class="postHeader"><h1 class="postHeaderTitle">quick start</h1></header><article><div><span><h2><a class="anchor" aria-hidden="true" id="安装composer"></a><a href="#安装composer" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>安装Composer</h2>
+<p>注意：Bytom SDK 需要PHP 5.4及以上版本。</p>
+<p>1.你需要在你的项目中使用Composer，如果你并没有搭建<a href="http://getcomposer.org/">Composer</a>，那么你需要通过如下方式简单安装：</p>
+<pre><code class="hljs css language-bash">curl -sS https://getcomposer.org/installer | php
+</code></pre>
+<p>2.在你的项目根目录创建一个<code>composer.json</code>文件，包含以下内容：</p>
+<pre><code class="hljs css language-json">{
+    <span class="hljs-attr">"require"</span>: {
+        <span class="hljs-attr">"lxlxw/bytom-php-sdk"</span> : <span class="hljs-string">"dev-master"</span>
+    }
+}
+</code></pre>
+<p>3.安装完成后，运行“composer install”下载并设置自动加载：</p>
+<pre><code class="hljs css language-php"><span class="hljs-keyword">require</span> <span class="hljs-string">'./vendor/autoload.php'</span>;
+</code></pre>
+<h2><a class="anchor" aria-hidden="true" id="使用git安装"></a><a href="#使用git安装" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>使用Git安装</h2>
+<p>从github上clone该项目：<a href="https://github.com/lxlxw/bytom-php-sdk.git">https://github.com/lxlxw/bytom-php-sdk.git</a></p>
+<pre><code class="hljs css language-bash">git <span class="hljs-built_in">clone</span> https://github.com/lxlxw/bytom-php-sdk.git
+</code></pre>
+<p>包含<code>autoload.php</code> 文件从而自动获取Bytom SDK中的类</p>
+<pre><code class="hljs css language-php"><span class="hljs-keyword">require</span> <span class="hljs-string">'autoload.php'</span>;
+</code></pre>
+<h2><a class="anchor" aria-hidden="true" id="使用示例"></a><a href="#使用示例" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>使用示例</h2>
+<p>你必须在你的应用中使用Composer autoloader来自动加载你的依赖，所有例子都默认你已经包含下列内容：</p>
+<pre><code class="hljs css language-php"><span class="hljs-keyword">require</span> <span class="hljs-string">'vendor/autoload.php'</span>;
+<span class="hljs-keyword">use</span> <span class="hljs-title">Bytom</span>\<span class="hljs-title">BytomClient</span>;
+</code></pre>
+<p>下面是一个如何使用SDK来发送消息的例子：</p>
+<pre><code class="hljs css language-php"><span class="hljs-comment"># First, instantiate the SDK Client</span>
+
+<span class="hljs-comment"># Local node, default url is `127.0.0.1:9888`</span>
+$client = <span class="hljs-keyword">new</span> BytomClient();
+<span class="hljs-comment"># Remote node</span>
+$client = <span class="hljs-keyword">new</span> BytomClient(<span class="hljs-string">'url'</span>, <span class="hljs-string">'auth-token'</span>);
+
+<span class="hljs-comment"># Now, request bytom api.</span>
+$alias = <span class="hljs-string">'test_name'</span>;
+$pwd = <span class="hljs-string">'123456'</span>;
+$res = $client-&gt;createKey($alias, $pwd);
+$data = $res-&gt;getJSONDecodedBody();
+</code></pre>
+<h2><a class="anchor" aria-hidden="true" id="其他示例"></a><a href="#其他示例" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>其他示例</h2>
+<p>请参考文档：<a href="/php-docs/docs/key">API中文文档</a></p>
+<h2><a class="anchor" aria-hidden="true" id="支持和反馈"></a><a href="#支持和反馈" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>支持和反馈</h2>
+<p>如果你发现了该SDK的bug，请直接在github上提交issue：
+<a href="https://github.com/lxlxw/bytom-php-sdk/issues">Bytom-PHP-SDK Issues</a></p>
+<h2><a class="anchor" aria-hidden="true" id="联系"></a><a href="#联系" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>联系</h2>
+<ul>
+<li>邮箱：<a href="mailto:x@xwlin.com">x@xwlin.com</a></li>
+</ul>
+</span></div></article></div><div class="docs-prevnext"><a class="docs-prev button" href="/php-docs/docs/build"><span class="arrow-prev">← </span><span>搭建节点</span></a><a class="docs-next button" href="/php-docs/docs/explanation"><span>说明</span><span class="arrow-next"> →</span></a></div></div></div><nav class="onPageNav"><ul class="toc-headings"><li><a href="#安装composer">安装Composer</a></li><li><a href="#使用git安装">使用Git安装</a></li><li><a href="#使用示例">使用示例</a></li><li><a href="#其他示例">其他示例</a></li><li><a href="#支持和反馈">支持和反馈</a></li><li><a href="#联系">联系</a></li></ul></nav></div><footer class="nav-footer" id="footer"><section class="sitemap">//</section>//<section class="copyright">Copyright © 2019 Bytom Community</section></footer></div></body></html>
